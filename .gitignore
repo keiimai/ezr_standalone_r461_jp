@@ -1,0 +1,6 @@
+# --- 手元だけに置き、Git に載せないもの（Zip を作るときに入れるもの。README「リポジトリから直接動かす」）---
+/runtime
+/Start EZR.app/
+/THIRD_PARTY.md
+/.state/
+.DS_Store

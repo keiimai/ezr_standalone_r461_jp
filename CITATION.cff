@@ -1,0 +1,24 @@
+# --- 引用の情報（LAYERS.md「派生プロジェクトとの関係」）---
+
+cff-version: 1.2.0
+title: "EZR and RStudio runtime environment, standalone edition (R 4.6.1, Japanese edition)"
+message: "If you publish results obtained with this environment, please cite it using the information below."
+type: software
+authors:
+  - family-names: "Imai"
+    given-names: "Kei"
+    email: "keiimai1220@gmail.com"
+    affiliation: "The University of Tokyo, Japan"
+abstract: >-
+  The standalone edition of the environment that adds EZR (RcmdrPlugin.EZR) to r_46x, a runtime environment template for reproducible analysis (R 4.6.1, Docker, renv, RStudio Server).
+  EZR is opened from the RStudio session; its screen is drawn on a virtual display inside the container and shown in the browser through the RStudio Server proxy.
+  Nothing needs to be installed on the computer: the Zip carries Python, QEMU and a small Linux virtual machine that runs Docker Engine (Mac with Apple silicon and Windows).
+  This is the Japanese edition: the EZR menus and the instructions for users are in Japanese.
+license: MIT
+version: 0.1.0
+date-released: "2026-11-21"
+keywords:
+  - reproducible research
+  - R
+  - EZR
+  - RStudio
